@@ -1,0 +1,9 @@
+.venv/
+cache/
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+
+# large raw data: share these separately, not through git
+Motor_Vehicle_Collisions_-_Crashes_*.csv
+Automated_Traffic_Volume_Counts_*.csv
