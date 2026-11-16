@@ -38,3 +38,8 @@ They are also available from NYC Open Data as "Motor Vehicle Collisions - Crashe
 Place both files in the main project folder, the same folder that contains `Notebooks/`. Do not put them inside `Notebooks/`.
 
 These two files are only needed to re-run notebooks 01 and 02. Everything those notebooks produce (`kappa_t.csv`, `zones.gpkg`, `demand_d_it.csv`) is already included, so notebooks 03 and 04 run without them.
+
+### Milestone 5
+
+- `05_sensitivity_analysis.ipynb` tests travel time, demand growth, model parameters, and site availability. Budget searches use the best feasible coverage and the solver's bound to classify each tested budget. Unresolved searches retain their available bounds in the tables.
+- `06_fixed_site_monte_carlo.ipynb` reproduces the fixed ten-site demand experiment in Table 7. It uses the prepared repository inputs and runs with NumPy, pandas, and Matplotlib. Run it from the repository root or the `Notebooks` folder. It does not need a Gurobi license.
